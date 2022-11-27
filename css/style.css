@@ -1,0 +1,49 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+	background:#b1d3fb;
+}
+
+.content {
+  font-family: "Anton", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  margin: 100px 50px 50px 50px;
+}
+
+.area {
+  width: 156px;
+  border: 2px solid #000;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+}
+.cell, span span{
+	font-weight: 700;
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 26px;
+  border: 1px solid #000;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
+  font-weight: 700;
+}
+.cell:hover {
+	background:#66a4eb;
+}
+
+.currentPlayer {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
